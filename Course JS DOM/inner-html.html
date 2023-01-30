@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inner text</title>
+</head>
+<body>
+    <p id="content">
+        <script>
+            console.info("hello world!");
+        </script>
+        <b>Nugraha</b> Panca <i>Wibisana</i>
+    </p>
+    <script>
+        const content = document.getElementById("content");
+        content.innerHTML(`<h1>Belajar Js Dom</h1><p>Selamat Belajar Js Dom</p>`);
+    </script>
+</body>
+</html>
